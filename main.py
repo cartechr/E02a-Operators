@@ -14,7 +14,7 @@ def sub(a1,a2):
     Subtracts a2 from a1
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 - a2  # add your code here
     return toReturn
 
 def mult(a1,a2):
@@ -22,7 +22,7 @@ def mult(a1,a2):
     Multiplies a1 by a2
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 * a2 # add your code here
     return toReturn
 
 def div(a1,a2):
@@ -30,7 +30,7 @@ def div(a1,a2):
     Divides a1 by a2
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 / a2 # add your code here
     return toReturn
 
 def floorDiv(a1,a2):
@@ -47,7 +47,7 @@ def mod(a1,a2):
     e.g., mod(5,3) = 2, mod(15,5) = 0, mod(15,4) = 3
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 % a2 # add your code here
     return toReturn
 
 def exp(a1,a2):
@@ -55,7 +55,7 @@ def exp(a1,a2):
     Returns the a1 to the a2 power (exponent)
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1**a2 # add your code here
     return toReturn
 
 def orderOperations(a1,a2,a3):
@@ -64,7 +64,7 @@ def orderOperations(a1,a2,a3):
     i.e., changes normal order or operations 
     '''
     toReturn = 0
-    # add your code here
+      # add your code here
     return toReturn
 
 def whichType(t):
@@ -159,8 +159,8 @@ def reverseList(l):
     '''
     Returns a list which is a mirror of l (each element is present in reverse order from l)
     '''
-    toReturn = []
-    # add your code here
+    toReturn = ['apple', 'banana', 'orange']
+    toReturn.reverse() # add your code here
     return toReturn
 
 def shuffleList(l):
